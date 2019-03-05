@@ -5,13 +5,13 @@ class Foo(metaclass=ABCMeta):
 
     @classmethod
     @abstractmethod
-    def abstract_cm():
+    def abstract_cm(cls):
         """This is an abstract cm!"""
         pass
 
 
     @property
     @abstractmethod
-    def value():
+    def value(self):
         """This is an abstract property."""
         pass
