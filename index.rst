@@ -20,9 +20,12 @@ A manual class documentation:
    
    Another class!
 
-   .. method:: Bar.insert_coin(number)
+   .. method:: insert_coin(number: string)
+      :abstract:
+      :static:
 
       Here you can insert some coins. 
+
 
 Indices and tables
 ==================
