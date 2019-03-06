@@ -22,9 +22,13 @@ A manual class documentation:
 
    .. method:: insert_coin(number: string)
       :abstract:
-      :static:
 
       Here you can insert some coins. 
+
+   .. attribute:: test
+      :abstract:
+
+      this is sth abstract as well
 
 
 Indices and tables
